@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "jenis1";
+    src: url('../fonts/Proxima_Nova_Light.ttf');
+}
+@font-face {
+    font-family: "jenis2";
+    src: url('../fonts/Proxima_Nova_Regular.ttf');
+}
+@font-face {
+    font-family: "jenis3";
+    src: url('../fonts/Proxima_Nova_Regular_Italic.ttf');
+}
+@font-face {
+    font-family: "jenis4";
+    src: url('../fonts/Proxima_Nova_Semibold.ttf');
+}
+@font-face {
+    font-family: "jenis5";
+    src: url('../fonts/Proxima_Nova_Bold.ttf');
+}
+body{
+  font-family: jenis2;
+}
+.beranda{
+  /*background-color: #218cc4;*/
+  box-shadow: 0 0 8px 0 rgba(0,0,0,.1);
+  background-image: url('../image/13.jpg');
+  background-position: right 18%;
+  background-size: auto 100%;
+  padding: 65px 0 115px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+}
+.aplikasi{
+  padding:20px;
+  background-color: #08e136;
+  color:white;
+}
+.apps{
+  background-color: white;
+  padding:100px; 
+}
+.navbar-fixed-top .navbar-brand img{
+  height:50px;
+}
+.beranda .beranda-title{
+  padding-top:125px;
+  font-size:70px;
+  color:#08e136;
+  font-family:jenis4;
+  text-shadow: 0px 2px 2px #fff;
+}
+
+.navbar-default {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-color: #08e136;
+}
+
+.beranda .beranda-text{
+    color: white;
+    text-align: justify;
+    padding-top: 53px;
+    font-size: 21px;
+    text-shadow: 0px 5px 12px #000000;
+}
+ .item-grid,.item-grid2 {
+  width: 100%;
+  float: left;
+  position: relative;
+  background: #fff;
+  margin-bottom: 50px;
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.11);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.11);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  top: 2px;
+}
+
+.item-grid:hover, .item-grid:focus, .item-grid2:hover, .item-grid2:focus {
+  box-shadow: 0px 14px 25px -2px rgba(0, 0, 0, 0.14);
+  top: -2px;
+}
+
+.item-grid .image {
+  height: 120px;
+  overflow: hidden;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.item-grid2 .image {
+  height: 100px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.item-grid .v-align, .item-grid2 .v-align {
+  padding: 20px;
+}
+
+.head4{
+  font-size: 20px;
+}

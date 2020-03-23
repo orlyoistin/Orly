@@ -1,0 +1,62 @@
+html { 
+	background: url(../images/background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body, h1,h2,h3,h4,table {
+  	margin: 0;
+  	padding: 0;
+	background:none;
+}
+
+h1,h2,h3,h4 {
+	font-weight:bold;
+}
+
+form,input,select,textarea {
+  	font-family:Arial,Tahoma, Geneva, sans-serif;
+	font-size:14px;
+}
+
+/* End General */
+
+/* Login */
+.outer_login {
+	width:475px;
+	margin-left:auto;
+	margin-right:auto;
+	background:none;
+}
+
+.login_image {
+	float:left;
+	margin-right:15px;
+}
+
+.login_title {
+	margin-top:50%;
+	font-size:15px;
+	font-family:Arial;
+	color:white;
+	padding-top:0px;
+}	
+
+.login_form {
+	margin-top:0px;
+	padding: 16px 16px 16px 16px;
+	font-weight: normal;
+	-moz-border-radius: 11px;
+	-khtml-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 11px;
+	background-color:#FFF;
+	border: 1px solid #e5e5e5;
+	/*-moz-box-shadow: rgba(200,200,200,1) 0 4px 18px;
+	-webkit-box-shadow: rgba(200,200,200,1) 0 4px 18px;
+	-khtml-box-shadow: rgba(200,200,200,1) 0 4px 18px;
+	box-shadow: rgba(200,200,200,1) 0 4px 18px;*/
+}
+/* End Login */

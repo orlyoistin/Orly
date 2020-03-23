@@ -1,0 +1,41 @@
+span.tanggal_surat{
+   display:block;
+   float:left;
+   margin:0 0 5px 0;
+}
+
+.text-center {
+	text-align:center;
+}
+
+.btn {
+    -moz-user-select: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 4px 8px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.table caption + thead tr:first-child th, .table colgroup + thead tr:first-child th, .table thead:first-child tr:first-child th, .table caption + thead tr:first-child td, .table colgroup + thead tr:first-child td, .table thead:first-child tr:first-child td {
+    background-color:#F96;
+    border-top: 0 none;
+}
+
+.web_title, .web_title a:link, .web_title a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#FFF;
+	font-weight:bold;
+	padding-left:20px;
+	margin-top:4px;
+	position:absolute;
+	width:300px;
+}

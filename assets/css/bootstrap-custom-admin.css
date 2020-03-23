@@ -1,0 +1,36 @@
+.navbar-fixed-top {
+    height: 10px; /* Whatever you want. */
+}
+
+.navbar-brand {
+	font-weight:bold;
+	font-size:20px;
+}
+
+.table-striped tbody > tr:nth-child(odd) > td, .table-striped tbody > tr:nth-child(odd) > th {
+    background-color:#efefef;
+}
+
+/*.input-sm {
+	padding:0 3px;
+	height:28px;
+}*/
+
+.form-horizontal .control-label{
+	text-align:left;
+	padding-left:0px;
+}
+
+.navbar-inverse .navbar-nav > li > a:link {
+    color: #FFF;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: #999;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #FFF;
+}
+
+.dropdown-menu {
+	background-color:#CCC;
+}

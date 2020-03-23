@@ -1,0 +1,87 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2019-04-29 07:48:43 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: skpd_id ~ APPPATH/classes/Controller/Admin/Skpd.php [ 89 ] in /home/arsipsemarangkot/public_html/application/classes/Controller/Admin/Skpd.php:89
+2019-04-29 07:48:43 --- DEBUG: #0 /home/arsipsemarangkot/public_html/application/classes/Controller/Admin/Skpd.php(89): Kohana_Core::error_handler(8, 'Undefined index...', '/home/arsipsema...', 89, Array)
+#1 /home/arsipsemarangkot/public_html/system/classes/Kohana/Controller.php(84): Controller_Admin_Skpd->action_update()
+#2 [internal function]: Kohana_Controller->execute()
+#3 /home/arsipsemarangkot/public_html/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Skpd))
+#4 /home/arsipsemarangkot/public_html/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 /home/arsipsemarangkot/public_html/system/classes/Kohana/Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#6 /home/arsipsemarangkot/public_html/index.php(109): Kohana_Request->execute()
+#7 {main} in /home/arsipsemarangkot/public_html/application/classes/Controller/Admin/Skpd.php:89
+2019-04-29 07:48:47 --- EMERGENCY: ErrorException [ 8 ]: Undefined index: skpd_id ~ APPPATH/classes/Controller/Admin/Skpd.php [ 89 ] in /home/arsipsemarangkot/public_html/application/classes/Controller/Admin/Skpd.php:89
+2019-04-29 07:48:47 --- DEBUG: #0 /home/arsipsemarangkot/public_html/application/classes/Controller/Admin/Skpd.php(89): Kohana_Core::error_handler(8, 'Undefined index...', '/home/arsipsema...', 89, Array)
+#1 /home/arsipsemarangkot/public_html/system/classes/Kohana/Controller.php(84): Controller_Admin_Skpd->action_update()
+#2 [internal function]: Kohana_Controller->execute()
+#3 /home/arsipsemarangkot/public_html/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Skpd))
+#4 /home/arsipsemarangkot/public_html/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 /home/arsipsemarangkot/public_html/system/classes/Kohana/Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#6 /home/arsipsemarangkot/public_html/index.php(109): Kohana_Request->execute()
+#7 {main} in /home/arsipsemarangkot/public_html/application/classes/Controller/Admin/Skpd.php:89
+2019-04-29 14:14:07 --- EMERGENCY: Database_Exception [ 1146 ]: Table 'arsipsem_arsipsmg.disposisi' doesn't exist [ UPDATE `disposisi` SET `masterbool_id` = 2 WHERE `id` = '2' ] ~ MODPATH/database/classes/Kohana/Database/MySQL.php [ 194 ] in /home/arsipsemarangkot/public_html/modules/database/classes/Kohana/Database/Query.php:251
+2019-04-29 14:14:07 --- DEBUG: #0 /home/arsipsemarangkot/public_html/modules/database/classes/Kohana/Database/Query.php(251): Kohana_Database_MySQL->query(3, 'UPDATE `disposi...', false, Array)
+#1 /home/arsipsemarangkot/public_html/application/classes/Controller/Struktural/Disposisi.php(117): Kohana_Database_Query->execute()
+#2 /home/arsipsemarangkot/public_html/system/classes/Kohana/Controller.php(84): Controller_Struktural_Disposisi->action_save()
+#3 [internal function]: Kohana_Controller->execute()
+#4 /home/arsipsemarangkot/public_html/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Struktural_Disposisi))
+#5 /home/arsipsemarangkot/public_html/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 /home/arsipsemarangkot/public_html/system/classes/Kohana/Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#7 /home/arsipsemarangkot/public_html/index.php(109): Kohana_Request->execute()
+#8 {main} in /home/arsipsemarangkot/public_html/modules/database/classes/Kohana/Database/Query.php:251
+2019-04-29 14:14:11 --- EMERGENCY: Database_Exception [ 1146 ]: Table 'arsipsem_arsipsmg.disposisi' doesn't exist [ UPDATE `disposisi` SET `masterbool_id` = 2 WHERE `id` = '2' ] ~ MODPATH/database/classes/Kohana/Database/MySQL.php [ 194 ] in /home/arsipsemarangkot/public_html/modules/database/classes/Kohana/Database/Query.php:251
+2019-04-29 14:14:11 --- DEBUG: #0 /home/arsipsemarangkot/public_html/modules/database/classes/Kohana/Database/Query.php(251): Kohana_Database_MySQL->query(3, 'UPDATE `disposi...', false, Array)
+#1 /home/arsipsemarangkot/public_html/application/classes/Controller/Struktural/Disposisi.php(117): Kohana_Database_Query->execute()
+#2 /home/arsipsemarangkot/public_html/system/classes/Kohana/Controller.php(84): Controller_Struktural_Disposisi->action_save()
+#3 [internal function]: Kohana_Controller->execute()
+#4 /home/arsipsemarangkot/public_html/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Struktural_Disposisi))
+#5 /home/arsipsemarangkot/public_html/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 /home/arsipsemarangkot/public_html/system/classes/Kohana/Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#7 /home/arsipsemarangkot/public_html/index.php(109): Kohana_Request->execute()
+#8 {main} in /home/arsipsemarangkot/public_html/modules/database/classes/Kohana/Database/Query.php:251
+2019-04-29 14:40:58 --- EMERGENCY: ErrorException [ 8 ]: Undefined variable: mastersurat_list ~ APPPATH/views/admin/naskah_form.php [ 96 ] in /home/arsipsemarangkot/public_html/application/views/admin/naskah_form.php:96
+2019-04-29 14:40:58 --- DEBUG: #0 /home/arsipsemarangkot/public_html/application/views/admin/naskah_form.php(96): Kohana_Core::error_handler(8, 'Undefined varia...', '/home/arsipsema...', 96, Array)
+#1 /home/arsipsemarangkot/public_html/system/classes/Kohana/View.php(62): include('/home/arsipsema...')
+#2 /home/arsipsemarangkot/public_html/system/classes/Kohana/View.php(359): Kohana_View::capture('/home/arsipsema...', Array)
+#3 /home/arsipsemarangkot/public_html/system/classes/Kohana/View.php(236): Kohana_View->render()
+#4 /home/arsipsemarangkot/public_html/application/views/template/backend.php(233): Kohana_View->__toString()
+#5 /home/arsipsemarangkot/public_html/system/classes/Kohana/View.php(62): include('/home/arsipsema...')
+#6 /home/arsipsemarangkot/public_html/system/classes/Kohana/View.php(359): Kohana_View::capture('/home/arsipsema...', Array)
+#7 /home/arsipsemarangkot/public_html/system/classes/Kohana/Controller/Template.php(44): Kohana_View->render()
+#8 /home/arsipsemarangkot/public_html/application/classes/Controller/Admin/Backend.php(39): Kohana_Controller_Template->after()
+#9 /home/arsipsemarangkot/public_html/system/classes/Kohana/Controller.php(87): Controller_Admin_Backend->after()
+#10 [internal function]: Kohana_Controller->execute()
+#11 /home/arsipsemarangkot/public_html/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Admin_Naskah))
+#12 /home/arsipsemarangkot/public_html/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#13 /home/arsipsemarangkot/public_html/system/classes/Kohana/Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#14 /home/arsipsemarangkot/public_html/index.php(109): Kohana_Request->execute()
+#15 {main} in /home/arsipsemarangkot/public_html/application/views/admin/naskah_form.php:96
+2019-04-29 14:41:12 --- EMERGENCY: ErrorException [ 8 ]: Undefined variable: mastersurat_list ~ APPPATH/views/dinas/naskah_form.php [ 96 ] in /home/arsipsemarangkot/public_html/application/views/dinas/naskah_form.php:96
+2019-04-29 14:41:12 --- DEBUG: #0 /home/arsipsemarangkot/public_html/application/views/dinas/naskah_form.php(96): Kohana_Core::error_handler(8, 'Undefined varia...', '/home/arsipsema...', 96, Array)
+#1 /home/arsipsemarangkot/public_html/system/classes/Kohana/View.php(62): include('/home/arsipsema...')
+#2 /home/arsipsemarangkot/public_html/system/classes/Kohana/View.php(359): Kohana_View::capture('/home/arsipsema...', Array)
+#3 /home/arsipsemarangkot/public_html/system/classes/Kohana/View.php(236): Kohana_View->render()
+#4 /home/arsipsemarangkot/public_html/application/views/template/dinas.php(232): Kohana_View->__toString()
+#5 /home/arsipsemarangkot/public_html/system/classes/Kohana/View.php(62): include('/home/arsipsema...')
+#6 /home/arsipsemarangkot/public_html/system/classes/Kohana/View.php(359): Kohana_View::capture('/home/arsipsema...', Array)
+#7 /home/arsipsemarangkot/public_html/system/classes/Kohana/Controller/Template.php(44): Kohana_View->render()
+#8 /home/arsipsemarangkot/public_html/application/classes/Controller/Dinas/Backend.php(39): Kohana_Controller_Template->after()
+#9 /home/arsipsemarangkot/public_html/system/classes/Kohana/Controller.php(87): Controller_Dinas_Backend->after()
+#10 [internal function]: Kohana_Controller->execute()
+#11 /home/arsipsemarangkot/public_html/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Dinas_Naskah))
+#12 /home/arsipsemarangkot/public_html/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#13 /home/arsipsemarangkot/public_html/system/classes/Kohana/Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#14 /home/arsipsemarangkot/public_html/index.php(109): Kohana_Request->execute()
+#15 {main} in /home/arsipsemarangkot/public_html/application/views/dinas/naskah_form.php:96
+2019-04-29 16:00:43 --- EMERGENCY: ErrorException [ 8 ]: Undefined variable: skpd ~ APPPATH/views/dinas/sotk_form.php [ 9 ] in /home/arsipsemarangkot/public_html/application/views/dinas/sotk_form.php:9
+2019-04-29 16:00:43 --- DEBUG: #0 /home/arsipsemarangkot/public_html/application/views/dinas/sotk_form.php(9): Kohana_Core::error_handler(8, 'Undefined varia...', '/home/arsipsema...', 9, Array)
+#1 /home/arsipsemarangkot/public_html/system/classes/Kohana/View.php(62): include('/home/arsipsema...')
+#2 /home/arsipsemarangkot/public_html/system/classes/Kohana/View.php(359): Kohana_View::capture('/home/arsipsema...', Array)
+#3 /home/arsipsemarangkot/public_html/system/classes/Kohana/View.php(236): Kohana_View->render()
+#4 /home/arsipsemarangkot/public_html/application/classes/Controller/Dinas/Sotk.php(91): Kohana_View->__toString()
+#5 /home/arsipsemarangkot/public_html/system/classes/Kohana/Controller.php(84): Controller_Dinas_Sotk->action_save()
+#6 [internal function]: Kohana_Controller->execute()
+#7 /home/arsipsemarangkot/public_html/system/classes/Kohana/Request/Client/Internal.php(97): ReflectionMethod->invoke(Object(Controller_Dinas_Sotk))
+#8 /home/arsipsemarangkot/public_html/system/classes/Kohana/Request/Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#9 /home/arsipsemarangkot/public_html/system/classes/Kohana/Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#10 /home/arsipsemarangkot/public_html/index.php(109): Kohana_Request->execute()
+#11 {main} in /home/arsipsemarangkot/public_html/application/views/dinas/sotk_form.php:9

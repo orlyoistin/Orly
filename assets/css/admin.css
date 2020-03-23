@@ -1,0 +1,122 @@
+/* General */
+body, h1,h2,h3,h4,table {
+  	margin: 0;
+  	padding: 0;
+}
+
+
+a {
+	color:blue;
+}
+
+table {
+  	margin: 0;
+  	padding: 0;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+}
+
+form {
+  	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+}
+
+input, select, textarea {
+   border: 1px solid #CCC;
+   padding:3px 5px;
+   border-color:#CCC;
+}
+
+.input-group-addon, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], input[type="file"], .uneditable-input {
+    border-color: #CCC;
+    border-radius: 3px;
+    box-shadow: none;
+}
+
+.box-header {
+	font-weight:bold;
+	color:#FFF;
+	padding:5px 8px;
+	background-color:#008d4c;
+}
+
+.submit_option {
+	float:left;
+}
+
+.delete_option {
+	margin-left:95px;
+	background-color:red;
+	padding:6px 15px 7px 5px;
+	color:white;	
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:bold;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-decoration:none;
+	width:135px;
+}
+.delete_text {
+	margin-left: 25px;
+}
+.delete_input {
+    width: 15px;
+    height: 0px;
+    padding: 0;
+    margin:0;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+    *overflow: hidden;
+}
+
+.user_online {
+	color:blue;
+}
+/* End General */
+
+/* JQuery UI Custom CSS */
+.ui-datepicker {
+	font-size:11px;
+    z-index:99999999 !important
+}
+
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
+      color: black;
+      font-size: 11px;
+}
+.ui-datepicker-trigger {
+	margin-left:5px;
+	margin-bottom: 5px;
+}
+/* End JQuery UI Custom CSS */
+
+.table th, .table td { 
+     border-top: none !important; 
+ }
+ 
+.image_show {
+	width:120px;
+	position:relative;
+	z-index:1;
+	margin-right:10px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+.icon_delete_image {
+	position:absolute;
+	top:-0.5em;
+	right:-0.5em;
+	z-index:2;	
+}
+
+.sidebar-menu .treeview-menu > li > a {
+    padding: 5px 5px 5px 35px;
+    display: block;
+    font-size: 14px;
+}
+
+.select2-container--open{
+	z-index:99999999
+}
+
